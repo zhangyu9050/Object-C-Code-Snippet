@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>LayoutView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (instancetype)init{
+    
+    if (self = [super init]) {
+    
+        [self viewInitialize];
+    }
+    
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame{
+    
+    if (self = [super initWithFrame:frame]) {
+        
+        [self viewInitialize];
+    }
+    
+    return self;
+}
+
+- (void)dealloc{
+
+
+}
+
+#pragma mark - Life Cycle
+
+- (void)viewInitialize{
+    
+    //Add SubView
+}
+
+- (void)viewWillLayoutSubviews{
+    
+    //Frame
+}
+
+#pragma mark - Custom Delegate
+
+#pragma mark - Event Response
+
+#pragma mark - Public Methods
+
+#pragma mark - Private Methods
+
+#pragma mark - Getters &amp; Setters</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>27D5CA22-68E0-4C2E-BBF1-5E888A31207E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>View 代码编写规范</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>View Layout</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
